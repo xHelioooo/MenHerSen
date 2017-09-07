@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/degradado"
+    tools:context="com.example.ihelioooo.login.Registro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Usuario"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:id="@+id/ET_Nombre"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:layout_margin="25dp"/>
+
+    <EditText
+        android:id="@+id/ET_Usuario"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:layout_margin="25dp"/>
+
+    <EditText
+        android:id="@+id/ET_Correo"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Correo"
+        android:inputType="text"
+        android:layout_margin="25dp"/>
+
+    <EditText
+        android:id="@+id/ET_pass"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_margin="25dp"/>
+    <Button
+        android:id="@+id/btn_Registrar"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_style"
+        android:clickable="true"
+        android:text="Registrar"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:padding="20dp"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>

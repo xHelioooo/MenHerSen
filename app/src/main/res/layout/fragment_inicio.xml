@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado"
+    tools:context="com.example.ihelioooo.login.Inicio"
+    android:id="@+id/principal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido a Menhersen"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:padding="15dp"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="70dp"
+            android:padding="1dp"
+            android:src="@drawable/logo"></ImageView>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+        <item>Opcion 1</item>
+        <item>Opcion 2</item>
+        <item>Opcion 3</item>
+        <item>Opcion 4</item>
+        <item>Opcion 5</item>
+        <item>Opcion 6</item>
+        <item>Opcion 7</item>
+        <item>Opcion 8</item>
+        <item>Opcion 9</item>
+        <item>Opcion 10</item>
+
+    </string-array>
+
+</resources>
